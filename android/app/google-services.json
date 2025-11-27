@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "454485172944",
+    "project_id": "martialflow-9424d",
+    "storage_bucket": "martialflow-9424d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454485172944:android:073a7b2935cc53636274d5",
+        "android_client_info": {
+          "package_name": "com.example.martialflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-jXCj6XBRq5grj7Utc5lYkF919c0jfes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454485172944:android:a50dfda273668b726274d5",
+        "android_client_info": {
+          "package_name": "com.martialflow.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-jXCj6XBRq5grj7Utc5lYkF919c0jfes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
