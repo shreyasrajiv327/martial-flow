@@ -1,83 +1,45 @@
-import 'package:firebase_auth/firebase_auth.dart' as fb;
-import 'package:flutter/material.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
-class AuthService extends ChangeNotifier {
-  final fb.FirebaseAuth _auth = fb.FirebaseAuth.instance;
+class AuthService {
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+  final FirebaseFirestore _db = FirebaseFirestore.instance;
 
-  fb.User? get user => _auth.currentUser;
-  String? errorMessage;
+  // sign up
+  Future<String?> signUp(String name, String email, String password) async {
+    try {
+      UserCredential userCred = await _auth.createUserWithEmailAndPassword(
+        email: email,
+        password: password,
+      );
 
-  // Stream for AuthWrapper
-  Stream<fb.User?> authStateChanges() => _auth.authStateChanges();
+      // update display name
+      await userCred.user!.updateDisplayName(name);
 
-  // ----------- AUTH METHODS -----------
+      // Create initial Firestore doc
+      await _db.collection("users").doc(userCred.user!.uid).set({
+        "name": name,
+        "email": email,
+        "onboarded": false, // mark not onboarded yet
+      });
 
-  Future<void> signIn(String email, String password) async {
-    errorMessage = null;
+      return null;
+    } on FirebaseAuthException catch (e) {
+      return e.message;
+    }
+  }
+
+  // sign in
+  Future<String?> signIn(String email, String password) async {
     try {
       await _auth.signInWithEmailAndPassword(email: email, password: password);
-      notifyListeners();
-    } on fb.FirebaseAuthException catch (e) {
-      errorMessage = _handleAuthError(e);
-      notifyListeners();
+      return null;
+    } on FirebaseAuthException catch (e) {
+      return e.message;
     }
   }
 
-  Future<void> signUp(String email, String password) async {
-    errorMessage = null;
-    try {
-      await _auth.createUserWithEmailAndPassword(email: email, password: password);
-      notifyListeners();
-    } on fb.FirebaseAuthException catch (e) {
-      errorMessage = _handleAuthError(e);
-      notifyListeners();
-    }
-  }
+  Future<void> signOut() async => _auth.signOut();
 
-  Future<void> updateProfile({String? displayName}) async {
-    if (_auth.currentUser == null) return;
-
-    try {
-      await _auth.currentUser!.updateDisplayName(displayName);
-      await _auth.currentUser!.reload();
-      notifyListeners();
-    } catch (e) {
-      errorMessage = "Failed to update profile.";
-      notifyListeners();
-    }
-  }
-
-  Future<void> resetPassword(String email) async {
-    errorMessage = null;
-    try {
-      await _auth.sendPasswordResetEmail(email: email);
-    } on fb.FirebaseAuthException catch (e) {
-      errorMessage = _handleAuthError(e);
-      notifyListeners();
-    }
-  }
-
-  Future<void> signOut() async {
-    await _auth.signOut();
-    notifyListeners();
-  }
-
-  // ----------- ERROR HANDLING -----------
-
-  String _handleAuthError(fb.FirebaseAuthException e) {
-    switch (e.code) {
-      case 'email-already-in-use':
-        return "This email is already registered.";
-      case 'invalid-email':
-        return "Invalid email format.";
-      case 'user-not-found':
-        return "No account found with this email.";
-      case 'wrong-password':
-        return "Incorrect password.";
-      case 'weak-password':
-        return "Password is too weak.";
-      default:
-        return "Something went wrong. Try again.";
-    }
-  }
+  Stream<User?> get userStream => _auth.authStateChanges();
 }
