@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "karate_black_belt_routine",
+    "name": "Black Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "zenkutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kokutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kiba_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "neko_ashi_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "fudo_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gedan_barai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "age_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "soto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uchi_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "morote_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "oi_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gyaku_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kizami_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uraken_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "empi_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_keage",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_kekomi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mawashi_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ushiro_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tobi_mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tobi_mawashi_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_nidan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_sandan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_yondan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_godan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tekki_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bassai_dai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kanku_dai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "empy",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jion",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:37.403349",
+    "belt": "black"
+  },
+  {
+    "id": "karate_blue_belt_routine",
+    "name": "Blue Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "zenkutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kokutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kiba_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "neko_ashi_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "fudo_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gedan_barai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "age_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "soto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uchi_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "morote_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "oi_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gyaku_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kizami_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uraken_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_keage",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_kekomi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mawashi_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ushiro_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_nidan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_sandan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_yondan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_godan",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:37.245787",
+    "belt": "blue"
+  },
+  {
+    "id": "karate_brown_belt_routine",
+    "name": "Brown Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "zenkutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kokutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kiba_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "neko_ashi_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "fudo_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gedan_barai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "age_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "soto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uchi_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "morote_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "oi_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gyaku_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kizami_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uraken_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "empi_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_keage",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_kekomi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mawashi_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ushiro_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tobi_mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tobi_mawashi_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_nidan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_sandan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_yondan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_godan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tekki_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bassai_dai",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:37.318674",
+    "belt": "brown"
+  },
+  {
+    "id": "karate_focus_blocks",
+    "name": "Blocks Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gedan_barai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "age_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "soto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uchi_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "morote_uke",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "blocks",
+    "created_at": "2025-11-27T13:39:37.582883",
+    "belt": "all"
+  },
+  {
+    "id": "karate_focus_hand_techniques",
+    "name": "Hand Techniques Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "oi_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gyaku_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kizami_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uraken_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uchi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "empi_uchi",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "hand_techniques",
+    "created_at": "2025-11-27T13:39:37.637916",
+    "belt": "all"
+  },
+  {
+    "id": "karate_focus_kata",
+    "name": "Kata Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_nidan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_sandan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_yondan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_godan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tekki_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bassai_dai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kanku_dai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "empy",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jion",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "kata",
+    "created_at": "2025-11-27T13:39:37.845512",
+    "belt": "all"
+  },
+  {
+    "id": "karate_focus_kicks",
+    "name": "Kicks Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_keage",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_kekomi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mawashi_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ushiro_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tobi_mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tobi_mawashi_geri",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "kicks",
+    "created_at": "2025-11-27T13:39:37.772043",
+    "belt": "all"
+  },
+  {
+    "id": "karate_focus_stances",
+    "name": "Stances Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "zenkutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kokutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kiba_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "neko_ashi_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "fudo_dachi",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "stances",
+    "created_at": "2025-11-27T13:39:37.483110",
+    "belt": "all"
+  },
+  {
+    "id": "karate_green_belt_routine",
+    "name": "Green Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "zenkutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kokutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kiba_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "neko_ashi_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gedan_barai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "age_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "soto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uchi_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "shuto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "oi_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gyaku_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kizami_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_keage",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_kekomi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mawashi_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_nidan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_sandan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_yondan",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:37.136720",
+    "belt": "green"
+  },
+  {
+    "id": "karate_kata_black",
+    "name": "Black Belt Kata Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_shodan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_nidan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_sandan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_yondan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_godan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "tekki_shodan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "bassai_dai",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "kanku_dai",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "empy",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "jion",
+        "timing_sec": 120
+      }
+    ],
+    "art": "karate",
+    "focus": "kata",
+    "created_at": "2025-11-27T13:39:38.147169",
+    "belt": "black"
+  },
+  {
+    "id": "karate_kata_blue",
+    "name": "Blue Belt Kata Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_shodan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_nidan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_sandan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_yondan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_godan",
+        "timing_sec": 120
+      }
+    ],
+    "art": "karate",
+    "focus": "kata",
+    "created_at": "2025-11-27T13:39:38.030012",
+    "belt": "blue"
+  },
+  {
+    "id": "karate_kata_brown",
+    "name": "Brown Belt Kata Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_shodan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_nidan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_sandan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_yondan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_godan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "tekki_shodan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "bassai_dai",
+        "timing_sec": 120
+      }
+    ],
+    "art": "karate",
+    "focus": "kata",
+    "created_at": "2025-11-27T13:39:38.084677",
+    "belt": "brown"
+  },
+  {
+    "id": "karate_kata_green",
+    "name": "Green Belt Kata Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_shodan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_nidan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_sandan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_yondan",
+        "timing_sec": 120
+      }
+    ],
+    "art": "karate",
+    "focus": "kata",
+    "created_at": "2025-11-27T13:39:37.977196",
+    "belt": "green"
+  },
+  {
+    "id": "karate_kata_yellow",
+    "name": "Yellow Belt Kata Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_shodan",
+        "timing_sec": 120
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "heian_nidan",
+        "timing_sec": 120
+      }
+    ],
+    "art": "karate",
+    "focus": "kata",
+    "created_at": "2025-11-27T13:39:37.911181",
+    "belt": "yellow"
+  },
+  {
+    "id": "karate_white_belt_routine",
+    "name": "White Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "zenkutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kiba_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gedan_barai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "age_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "oi_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mae_geri",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:36.529897",
+    "belt": "white"
+  },
+  {
+    "id": "karate_yellow_belt_routine",
+    "name": "Yellow Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "zenkutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kokutsu_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "kiba_dachi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gedan_barai",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "age_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "soto_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "uchi_uke",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "oi_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "gyaku_zuki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "mae_geri",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yoko_geri_keage",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_shodan",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "heian_nidan",
+        "timing_sec": 0
+      }
+    ],
+    "art": "karate",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:37.072820",
+    "belt": "yellow"
+  },
+  {
+    "id": "taekwondo_black_belt_routine",
+    "name": "Black Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "momtong_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "goduro_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dubeon_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "palmok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bita_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tora_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi_jump",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bandal_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwitchagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwi_dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "narae_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "chetdari_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "hwalgae_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jireugi_dwi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "pyojeok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_sewo_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_arae_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_1",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_2",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_3",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_4",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_5",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_6",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_7",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_8",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "black",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:08.042061",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_blue_belt_routine",
+    "name": "Blue Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "momtong_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "goduro_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dubeon_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "palmok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bita_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tora_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bandal_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwitchagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "chetdari_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jireugi_dwi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "pyojeok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_sewo_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_1",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_2",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_3",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_4",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_5",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_6",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "blue",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:07.750120",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_brown_belt_routine",
+    "name": "Brown Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "momtong_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "goduro_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dubeon_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "palmok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bita_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tora_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi_jump",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bandal_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwitchagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwi_dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "chetdari_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "hwalgae_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jireugi_dwi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "pyojeok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_sewo_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_arae_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_1",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_2",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_3",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_4",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_5",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_6",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_7",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_8",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "brown",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:07.950142",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_focus_blocks",
+    "name": "Blocks Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "momtong_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "goduro_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_makki",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "all",
+    "focus": "blocks",
+    "created_at": "2025-11-27T13:39:08.264985",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_focus_forms",
+    "name": "Forms Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_1",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_2",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_3",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_4",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_5",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_6",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_7",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_8",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "all",
+    "focus": "forms",
+    "created_at": "2025-11-27T13:39:08.520638",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_focus_hand_techniques",
+    "name": "Hand Techniques Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dubeon_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "palmok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "hwalgae_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jireugi_dwi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "pyojeok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_sewo_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_arae_chigi",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "all",
+    "focus": "hand_techniques",
+    "created_at": "2025-11-27T13:39:08.351309",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_focus_kicks",
+    "name": "Kicks Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bita_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tora_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi_jump",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bandal_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwitchagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwi_dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "narae_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "chetdari_chagi",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "all",
+    "focus": "kicks",
+    "created_at": "2025-11-27T13:39:08.452397",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_focus_stances",
+    "name": "Stances Routine",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "all",
+    "focus": "stances",
+    "created_at": "2025-11-27T13:39:08.183051",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_green_belt_routine",
+    "name": "Green Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "momtong_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "goduro_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dubeon_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "palmok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bandal_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jireugi_dwi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "pyojeok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_1",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_2",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_3",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_4",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "green",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:07.659071",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_poomsae_blue",
+    "name": "Blue Belt Poomsae (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_1",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_2",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_3",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_4",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_5",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_6",
+        "timing_sec": 90
+      }
+    ],
+    "belt": "blue",
+    "focus": "poomsae",
+    "created_at": "2025-11-27T13:39:08.685032",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_poomsae_green",
+    "name": "Green Belt Poomsae (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_1",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_2",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_3",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_4",
+        "timing_sec": 90
+      }
+    ],
+    "belt": "green",
+    "focus": "poomsae",
+    "created_at": "2025-11-27T13:39:08.620430",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_poomsae_red",
+    "name": "Red Belt Poomsae (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_1",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_2",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_3",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_4",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_5",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_6",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_7",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_8",
+        "timing_sec": 90
+      }
+    ],
+    "belt": "red",
+    "focus": "poomsae",
+    "created_at": "2025-11-27T13:39:08.749324",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_poomsae_yellow",
+    "name": "Yellow Belt Poomsae (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_1",
+        "timing_sec": 90
+      },
+      {
+        "reps": 0,
+        "sets": 1,
+        "id": "taegeuk_2",
+        "timing_sec": 90
+      }
+    ],
+    "belt": "yellow",
+    "focus": "poomsae",
+    "created_at": "2025-11-27T13:39:08.571988",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_red_belt_routine",
+    "name": "Red Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "momtong_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "goduro_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dubeon_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "palmok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonnal_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bita_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "tora_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "twio_yop_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "naeryo_chagi_jump",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "bandal_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dwitchagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "chetdari_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jireugi_dwi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "pyojeok_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "sonkut_sewo_chigi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_1",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_2",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_3",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_4",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_5",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_6",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_7",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_8",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "red",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:07.832466",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_white_belt_routine",
+    "name": "White Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "white",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:06.969108",
+    "art": "taekwondo"
+  },
+  {
+    "id": "taekwondo_yellow_belt_routine",
+    "name": "Yellow Belt Full Routine (Cumulative)",
+    "is_default": true,
+    "userId": "system",
+    "exercises": [
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "juchum_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_seogi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_gubi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "are_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "olgul_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "momtong_makki",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dubeon_jireugi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "ap_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "dollyo_chagi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "jireugi_dwi",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_1",
+        "timing_sec": 0
+      },
+      {
+        "reps": 10,
+        "sets": 3,
+        "id": "taegeuk_2",
+        "timing_sec": 0
+      }
+    ],
+    "belt": "yellow",
+    "focus": "full_cumulative",
+    "created_at": "2025-11-27T13:39:07.573965",
+    "art": "taekwondo"
+  }
+]

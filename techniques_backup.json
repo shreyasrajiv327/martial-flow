@@ -1,0 +1,626 @@
+{
+  "karate": [
+    {
+      "steps": [
+        "Lift arm upward",
+        "Angle block",
+        "Protect head"
+      ],
+      "category": "block",
+      "level": "white",
+      "name": "Age Uke (Rising Block)",
+      "id": "age_uke"
+    },
+    {
+      "category": "form",
+      "level": "brown",
+      "name": "Bassai Dai",
+      "id": "bassai_dai"
+    },
+    {
+      "steps": [
+        "Close distance",
+        "Use elbow point",
+        "Drive with hips"
+      ],
+      "category": "strike",
+      "level": "brown",
+      "name": "Empi Uchi (Elbow Strike)",
+      "id": "empi_uchi"
+    },
+    {
+      "category": "form",
+      "level": "black",
+      "name": "Empi",
+      "id": "empy"
+    },
+    {
+      "steps": [
+        "Stable stance",
+        "Feet wide",
+        "Hips square"
+      ],
+      "category": "stance",
+      "level": "blue",
+      "name": "Fudo Dachi (Immovable Stance)",
+      "id": "fudo_dachi"
+    },
+    {
+      "steps": [
+        "Chamber high",
+        "Sweep down",
+        "Palm inward"
+      ],
+      "category": "block",
+      "level": "white",
+      "name": "Gedan Barai (Downward Block)",
+      "id": "gedan_barai"
+    },
+    {
+      "steps": [
+        "Punch opposite arm",
+        "Hip rotation",
+        "Exhale at impact"
+      ],
+      "category": "strike",
+      "level": "yellow",
+      "name": "Gyaku Zuki (Reverse Punch)",
+      "id": "gyaku_zuki"
+    },
+    {
+      "category": "form",
+      "level": "blue",
+      "name": "Heian Godan",
+      "id": "heian_godan"
+    },
+    {
+      "category": "form",
+      "level": "yellow",
+      "name": "Heian Nidan",
+      "id": "heian_nidan"
+    },
+    {
+      "category": "form",
+      "level": "green",
+      "name": "Heian Sandan",
+      "id": "heian_sandan"
+    },
+    {
+      "category": "form",
+      "level": "yellow",
+      "name": "Heian Shodan",
+      "id": "heian_shodan"
+    },
+    {
+      "category": "form",
+      "level": "green",
+      "name": "Heian Yondan",
+      "id": "heian_yondan"
+    },
+    {
+      "category": "form",
+      "level": "black",
+      "name": "Jion",
+      "id": "jion"
+    },
+    {
+      "category": "form",
+      "level": "black",
+      "name": "Kanku Dai",
+      "id": "kanku_dai"
+    },
+    {
+      "steps": [
+        "Feet wide",
+        "Knees bent outward",
+        "Back straight"
+      ],
+      "category": "stance",
+      "level": "white",
+      "name": "Kiba Dachi (Horse Stance)",
+      "id": "kiba_dachi"
+    },
+    {
+      "steps": [
+        "Punch front arm",
+        "Quick snap",
+        "Small hip rotation"
+      ],
+      "category": "strike",
+      "level": "green",
+      "name": "Kizami Zuki (Jab Punch)",
+      "id": "kizami_zuki"
+    },
+    {
+      "steps": [
+        "Weight shifted back",
+        "Front foot light",
+        "Knees bent"
+      ],
+      "category": "stance",
+      "level": "yellow",
+      "name": "Kokutsu Dachi (Back Stance)",
+      "id": "kokutsu_dachi"
+    },
+    {
+      "steps": [
+        "Chamber knee",
+        "Snap kick",
+        "Retract"
+      ],
+      "category": "kick",
+      "level": "white",
+      "name": "Mae Geri (Front Kick)",
+      "id": "mae_geri"
+    },
+    {
+      "steps": [
+        "Pivot support foot",
+        "Turn hips",
+        "Snap kick"
+      ],
+      "category": "kick",
+      "level": "green",
+      "name": "Mawashi Geri (Roundhouse Kick)",
+      "id": "mawashi_geri"
+    },
+    {
+      "steps": [
+        "Support forearm",
+        "Strong stance",
+        "Push forward"
+      ],
+      "category": "block",
+      "level": "blue",
+      "name": "Morote Uke (Reinforced Block)",
+      "id": "morote_uke"
+    },
+    {
+      "steps": [
+        "80% weight on back leg",
+        "Front foot light",
+        "Heels aligned"
+      ],
+      "category": "stance",
+      "level": "green",
+      "name": "Neko Ashi Dachi (Cat Stance)",
+      "id": "neko_ashi_dachi"
+    },
+    {
+      "steps": [
+        "Step forward",
+        "Punch same-side arm",
+        "Rotate punch"
+      ],
+      "category": "strike",
+      "level": "white",
+      "name": "Oi Zuki (Lunge Punch)",
+      "id": "oi_zuki"
+    },
+    {
+      "steps": [
+        "Strike with knifehand",
+        "Rotate hips"
+      ],
+      "category": "strike",
+      "level": "brown",
+      "name": "Shuto Uchi (Knifehand Strike)",
+      "id": "shuto_uchi"
+    },
+    {
+      "steps": [
+        "Knifehand shape",
+        "Pull opposite hand to hip"
+      ],
+      "category": "block",
+      "level": "green",
+      "name": "Shuto Uke (Knifehand Block)",
+      "id": "shuto_uke"
+    },
+    {
+      "steps": [
+        "Chamber to ear",
+        "Sweep outward",
+        "Forearm across body"
+      ],
+      "category": "block",
+      "level": "yellow",
+      "name": "Soto Uke (Outside Block)",
+      "id": "soto_uke"
+    },
+    {
+      "category": "form",
+      "level": "brown",
+      "name": "Tekki Shodan",
+      "id": "tekki_shodan"
+    },
+    {
+      "steps": [
+        "Jump",
+        "Chamber in air",
+        "Snap kick"
+      ],
+      "category": "kick",
+      "level": "brown",
+      "name": "Tobi Mae Geri (Jump Front Kick)",
+      "id": "tobi_mae_geri"
+    },
+    {
+      "steps": [
+        "Jump",
+        "Turn hips",
+        "Kick mid-air"
+      ],
+      "category": "kick",
+      "level": "brown",
+      "name": "Tobi Mawashi Geri (Jump Roundhouse)",
+      "id": "tobi_mawashi_geri"
+    },
+    {
+      "steps": [
+        "Start from outside",
+        "Sweep inward",
+        "Protect centerline"
+      ],
+      "category": "block",
+      "level": "yellow",
+      "name": "Uchi Uke (Inside Block)",
+      "id": "uchi_uke"
+    },
+    {
+      "steps": [
+        "Whip-like motion",
+        "Strike with back of fist"
+      ],
+      "category": "strike",
+      "level": "blue",
+      "name": "Uraken Uchi (Backfist Strike)",
+      "id": "uraken_uchi"
+    },
+    {
+      "steps": [
+        "Turn body",
+        "Kick straight backward"
+      ],
+      "category": "kick",
+      "level": "blue",
+      "name": "Ushiro Geri (Back Kick)",
+      "id": "ushiro_geri"
+    },
+    {
+      "steps": [
+        "Chamber side",
+        "Snap sideways"
+      ],
+      "category": "kick",
+      "level": "yellow",
+      "name": "Yoko Geri Keage (Side Snap Kick)",
+      "id": "yoko_geri_keage"
+    },
+    {
+      "steps": [
+        "Chamber",
+        "Drive heel forward",
+        "Push motion"
+      ],
+      "category": "kick",
+      "level": "green",
+      "name": "Yoko Geri Kekomi (Side Thrust Kick)",
+      "id": "yoko_geri_kekomi"
+    },
+    {
+      "steps": [
+        "Long stance",
+        "Front knee bent",
+        "Back leg straight"
+      ],
+      "category": "stance",
+      "level": "white",
+      "name": "Zenkutsu Dachi (Front Stance)",
+      "id": "zenkutsu_dachi"
+    }
+  ],
+  "taekwondo": [
+    {
+      "steps": [
+        "Chamber knee",
+        "Kick forward",
+        "Retract"
+      ],
+      "category": "kick",
+      "level": "yellow",
+      "name": "Ap Chagi (Front Kick)",
+      "id": "ap_chagi"
+    },
+    {
+      "steps": [
+        "Long stance",
+        "Front knee bent",
+        "Rear leg straight"
+      ],
+      "category": "stance",
+      "level": "white",
+      "name": "Ap Gubi (Front Stance)",
+      "id": "ap_gubi"
+    },
+    {
+      "steps": [
+        "Extend fist forward",
+        "Rotate at impact"
+      ],
+      "category": "strike",
+      "level": "white",
+      "name": "Ap Jireugi (Front Punch)",
+      "id": "ap_jireugi"
+    },
+    {
+      "steps": [
+        "Step forward",
+        "Keep feet shoulder-width apart"
+      ],
+      "category": "stance",
+      "level": "white",
+      "name": "Ap Seogi (Walking Stance)",
+      "id": "ap_seogi"
+    },
+    {
+      "steps": [
+        "Chamber high",
+        "Sweep downward",
+        "Block low"
+      ],
+      "category": "block",
+      "level": "white",
+      "name": "Are Makki (Low Block)",
+      "id": "are_makki"
+    },
+    {
+      "category": "kick",
+      "level": "green",
+      "name": "Bandal Chagi (45° Kick)",
+      "id": "bandal_chagi"
+    },
+    {
+      "category": "kick",
+      "level": "blue",
+      "name": "Bita Chagi (Diagonal Kick)",
+      "id": "bita_chagi"
+    },
+    {
+      "category": "kick",
+      "level": "blue",
+      "name": "Chetdari Chagi (Hook Kick)",
+      "id": "chetdari_chagi"
+    },
+    {
+      "steps": [
+        "Pivot foot",
+        "Turn hips",
+        "Kick round"
+      ],
+      "category": "kick",
+      "level": "yellow",
+      "name": "Dollyo Chagi (Roundhouse Kick)",
+      "id": "dollyo_chagi"
+    },
+    {
+      "steps": [
+        "Punch twice quickly"
+      ],
+      "category": "strike",
+      "level": "yellow",
+      "name": "Dubeon Jireugi (Double Punch)",
+      "id": "dubeon_jireugi"
+    },
+    {
+      "category": "kick",
+      "level": "brown",
+      "name": "Dwi Dollyo Chagi (Spinning Back Kick)",
+      "id": "dwi_dollyo_chagi"
+    },
+    {
+      "category": "kick",
+      "level": "blue",
+      "name": "Dwi Chagi (Back Kick)",
+      "id": "dwitchagi"
+    },
+    {
+      "steps": [
+        "One hand reinforces the other"
+      ],
+      "category": "block",
+      "level": "green",
+      "name": "Goduro Makki (Supported Block)",
+      "id": "goduro_makki"
+    },
+    {
+      "category": "strike",
+      "level": "brown",
+      "name": "Hwalgae Chigi (Ridgehand Strike)",
+      "id": "hwalgae_chigi"
+    },
+    {
+      "category": "strike",
+      "level": "yellow",
+      "name": "Dwi Jireugi (Back Fist Punch)",
+      "id": "jireugi_dwi"
+    },
+    {
+      "steps": [
+        "Feet wider than shoulders",
+        "Bend knees",
+        "Keep back straight"
+      ],
+      "category": "stance",
+      "level": "white",
+      "name": "Juchum Seogi (Horse Stance)",
+      "id": "juchum_seogi"
+    },
+    {
+      "steps": [
+        "Chamber to shoulder",
+        "Sweep outward",
+        "Block midsection"
+      ],
+      "category": "block",
+      "level": "yellow",
+      "name": "Momtong Makki (Middle Block)",
+      "id": "momtong_makki"
+    },
+    {
+      "steps": [
+        "Lift leg high",
+        "Drop down forcefully"
+      ],
+      "category": "kick",
+      "level": "green",
+      "name": "Naeryo Chagi (Axe Kick)",
+      "id": "naeryo_chagi"
+    },
+    {
+      "category": "kick",
+      "level": "red",
+      "name": "Twio Naeryo Chagi (Jump Axe Kick)",
+      "id": "naeryo_chagi_jump"
+    },
+    {
+      "category": "kick",
+      "level": "black",
+      "name": "Narae Chagi (Double Spinning Kick)",
+      "id": "narae_chagi"
+    },
+    {
+      "steps": [
+        "Raise forearm",
+        "Angle 45°",
+        "Protect head"
+      ],
+      "category": "block",
+      "level": "white",
+      "name": "Olgul Makki (High Block)",
+      "id": "olgul_makki"
+    },
+    {
+      "category": "strike",
+      "level": "green",
+      "name": "Palmok Chigi (Forearm Strike)",
+      "id": "palmok_chigi"
+    },
+    {
+      "category": "strike",
+      "level": "green",
+      "name": "Pyojeok Chigi (Target Strike)",
+      "id": "pyojeok_chigi"
+    },
+    {
+      "category": "strike",
+      "level": "brown",
+      "name": "Sonkut Arae Chigi (Low Spearhand)",
+      "id": "sonkut_arae_chigi"
+    },
+    {
+      "category": "strike",
+      "level": "blue",
+      "name": "Sonkut Sewo Chigi (Vertical Spearhand)",
+      "id": "sonkut_sewo_chigi"
+    },
+    {
+      "category": "strike",
+      "level": "blue",
+      "name": "Sonnal Chigi (Knifehand Strike)",
+      "id": "sonnal_chigi"
+    },
+    {
+      "steps": [
+        "Form knife hand",
+        "Block sideways"
+      ],
+      "category": "block",
+      "level": "blue",
+      "name": "Sonnal Makki (Knife Hand Block)",
+      "id": "sonnal_makki"
+    },
+    {
+      "category": "form",
+      "level": "yellow",
+      "name": "Taegeuk Il Jang",
+      "id": "taegeuk_1"
+    },
+    {
+      "category": "form",
+      "level": "yellow",
+      "name": "Taegeuk Yi Jang",
+      "id": "taegeuk_2"
+    },
+    {
+      "category": "form",
+      "level": "green",
+      "name": "Taegeuk Sam Jang",
+      "id": "taegeuk_3"
+    },
+    {
+      "category": "form",
+      "level": "green",
+      "name": "Taegeuk Sa Jang",
+      "id": "taegeuk_4"
+    },
+    {
+      "category": "form",
+      "level": "blue",
+      "name": "Taegeuk Oh Jang",
+      "id": "taegeuk_5"
+    },
+    {
+      "category": "form",
+      "level": "blue",
+      "name": "Taegeuk Yuk Jang",
+      "id": "taegeuk_6"
+    },
+    {
+      "category": "form",
+      "level": "red",
+      "name": "Taegeuk Chil Jang",
+      "id": "taegeuk_7"
+    },
+    {
+      "category": "form",
+      "level": "red",
+      "name": "Taegeuk Pal Jang",
+      "id": "taegeuk_8"
+    },
+    {
+      "category": "kick",
+      "level": "blue",
+      "name": "Tora Chagi (Turning Kick)",
+      "id": "tora_chagi"
+    },
+    {
+      "category": "kick",
+      "level": "red",
+      "name": "Twio Ap Chagi (Jump Front Kick)",
+      "id": "twio_ap_chagi"
+    },
+    {
+      "category": "kick",
+      "level": "red",
+      "name": "Twio Dollyo Chagi (Jump Roundhouse)",
+      "id": "twio_dollyo_chagi"
+    },
+    {
+      "category": "kick",
+      "level": "red",
+      "name": "Twio Yop Chagi (Jump Side Kick)",
+      "id": "twio_yop_chagi"
+    },
+    {
+      "steps": [
+        "Chamber side",
+        "Extend sideways"
+      ],
+      "category": "kick",
+      "level": "green",
+      "name": "Yop Chagi (Side Kick)",
+      "id": "yop_chagi"
+    }
+  ]
+}
