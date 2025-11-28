@@ -2,6 +2,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
 class AuthService {
+  AuthService._privateConstructor();
+  static final AuthService instance = AuthService._privateConstructor();
+
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _db = FirebaseFirestore.instance;
 
@@ -39,7 +42,10 @@ class AuthService {
     }
   }
 
-  Future<void> signOut() async => _auth.signOut();
+Future<void> signOut() async {
+  print("Signed out!");
+  await _auth.signOut();
+}
 
   Stream<User?> get userStream => _auth.authStateChanges();
 }

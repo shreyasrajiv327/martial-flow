@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import 'signup_screen.dart';
-
+import 'auth_wrapper.dart';
 class SignInScreen extends StatefulWidget {
   @override
   _SignInScreenState createState() => _SignInScreenState();
@@ -12,8 +12,7 @@ class _SignInScreenState extends State<SignInScreen> {
   final passwordController = TextEditingController();
   bool showPassword = false;
   String? errorMsg;
-
-  final _auth = AuthService();
+final _auth = AuthService.instance;
 
   @override
   Widget build(BuildContext context) {
@@ -64,9 +63,14 @@ class _SignInScreenState extends State<SignInScreen> {
             TextButton(
               child: Text("Create an account"),
               onPressed: () {
-                Navigator.push(context,
-                  MaterialPageRoute(builder: (_) => SignUpScreen())
-                );
+                // Navigator.push(context,
+                //   MaterialPageRoute(builder: (_) => SignUpScreen())
+                // );
+                Navigator.pushAndRemoveUntil(
+  context,
+  MaterialPageRoute(builder: (_) => AuthWrapper()),
+  (route) => false,
+);
               },
             )
           ],

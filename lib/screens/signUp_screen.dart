@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
 import 'onboarding_screen.dart';
-
+import 'signup_screen.dart';
+import 'auth_wrapper.dart';
 class SignUpScreen extends StatefulWidget {
   @override
   _SignUpScreenState createState() => _SignUpScreenState();
@@ -17,7 +18,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
   bool showConfirm = false;
   String? errorMsg;
 
-  final _auth = AuthService();
+final _auth = AuthService.instance;
 
   @override
   Widget build(BuildContext context) {
@@ -88,10 +89,17 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   // Inside your "Create Account" button, after successful signUp():
                   if (error == null) {
                     // Success! Clear stack and go to Onboarding
-                    Navigator.of(context).pushAndRemoveUntil(
-                      MaterialPageRoute(builder: (_) => OnboardingScreen()),
-                      (route) => false,
-                    );
+                    // Navigator.of(context).pushAndRemoveUntil(
+                    //   MaterialPageRoute(builder: (_) => OnboardingScreen()),
+                    //   (route) => false,
+                    // );
+                   Navigator.pushAndRemoveUntil(
+  context,
+  MaterialPageRoute(builder: (_) => AuthWrapper()),
+  (route) => false,
+);
+
+
                   }
                 },
               ),
