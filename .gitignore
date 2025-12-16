@@ -13,12 +13,13 @@ serviceAccountKey.json
 .svn/
 .swiftpm/
 migrate_working_dir/
-
+build/
 # IntelliJ related
 *.iml
 *.ipr
 *.iws
 .idea/
+.gitignore
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
