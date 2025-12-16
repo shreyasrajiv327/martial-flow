@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import '../services/auth_service.dart';
-import 'onboarding_screen.dart';
-import 'signup_screen.dart';
 import 'auth_wrapper.dart';
+
 class SignUpScreen extends StatefulWidget {
   @override
   _SignUpScreenState createState() => _SignUpScreenState();
@@ -93,13 +92,11 @@ final _auth = AuthService.instance;
                     //   MaterialPageRoute(builder: (_) => OnboardingScreen()),
                     //   (route) => false,
                     // );
-                   Navigator.pushAndRemoveUntil(
-  context,
-  MaterialPageRoute(builder: (_) => AuthWrapper()),
-  (route) => false,
-);
-
-
+                    Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(builder: (_) => AuthWrapper()),
+                      (route) => false,
+                    );
                   }
                 },
               ),
