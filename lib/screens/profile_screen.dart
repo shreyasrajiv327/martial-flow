@@ -26,7 +26,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
     _fetchStats();
   }
 
-  /// MAIN STATS FETCHER
   Future<void> _fetchStats() async {
     try {
       final userId = FirebaseAuth.instance.currentUser?.uid;
@@ -39,7 +38,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           .get();
 
       final now = DateTime.now();
-      final last7days = now.subtract(Duration(days: 7));
+      final last7days = now.subtract(const Duration(days: 7));
 
       int sessionCount = 0;
       int minutes = 0;
@@ -53,20 +52,16 @@ class _ProfileScreenState extends State<ProfileScreen> {
         final data = doc.data();
         sessionCount++;
 
-        // Track dates for streak calculation
         DateTime date = DateTime.tryParse(data["date"] ?? "") ?? data["createdAt"].toDate();
         sessionDates.add(date);
 
-        // Weekly count
         if (date.isAfter(last7days)) weekCount++;
 
-        // Activities (extract names)
         final activities = data["activities"] as List<dynamic>? ?? [];
         for (var act in activities.take(2)) {
           recent.add("${act["name"]} (${act["type"]})");
         }
 
-        // Time calculation if available
         int sessionTime = 0;
         for (var act in activities) {
           if (act["time_sec"] != null && act["time_sec"] is List) {
@@ -75,7 +70,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
         }
         minutes += (sessionTime ~/ 60);
 
-        // Martial Art Distribution
         final arts = data["arts"] as List<dynamic>? ?? [];
         for (var art in arts) {
           artDist[art] = (artDist[art] ?? 0) + 1;
@@ -83,7 +77,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
       }
 
       sessionDates.sort((a, b) => b.compareTo(a));
-
       int streakCount = _calculateStreak(sessionDates);
 
       setState(() {
@@ -97,86 +90,159 @@ class _ProfileScreenState extends State<ProfileScreen> {
       });
     } catch (e) {
       print("Error fetching stats: $e");
+      setState(() => loading = false);
     }
   }
 
   int _calculateStreak(List<DateTime> dates) {
     if (dates.isEmpty) return 0;
 
-    int count = 1;
-    DateTime today = DateTime.now();
-    DateTime lastDate = dates.first;
+    final uniqueDates = dates
+        .map((d) => DateTime(d.year, d.month, d.day))
+        .toSet()
+        .toList()
+      ..sort((a, b) => b.compareTo(a));
 
-    if (!_isSameDay(today, lastDate)) count = 0;
+    final todayNormalized = DateTime(DateTime.now().year, DateTime.now().month, DateTime.now().day);
 
-    for (int i = 0; i < dates.length - 1; i++) {
-      final diff = dates[i].difference(dates[i + 1]).inDays;
-      if (diff == 1) {
-        count++;
+    if (uniqueDates.isEmpty || uniqueDates.first != todayNormalized) {
+      return 0;
+    }
+
+    int streak = 1;
+    for (int i = 1; i < uniqueDates.length; i++) {
+      final expectedPreviousDay = todayNormalized.subtract(Duration(days: streak));
+      if (uniqueDates[i] == expectedPreviousDay) {
+        streak++;
       } else {
         break;
       }
     }
 
-    return count;
+    return streak;
   }
-
-  bool _isSameDay(DateTime a, DateTime b) =>
-      a.year == b.year && a.month == b.month && a.day == b.day;
 
   @override
   Widget build(BuildContext context) {
+    final bool hasNoSessions = totalSessions == 0;
+
     return Scaffold(
       appBar: AppBar(
-        title: Text("Dashboard"),
+        title: const Text("Dashboard"),
         actions: [
           IconButton(
-            icon: Icon(Icons.logout),
-            onPressed: () async {
-              await _auth.signOut();
-            },
-          )
+            icon: const Icon(Icons.logout),
+            onPressed: () async => await _auth.signOut(),
+          ),
         ],
       ),
       body: loading
-          ? Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator())
           : SingleChildScrollView(
               padding: const EdgeInsets.all(18),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Welcome Back!", style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold)),
+                  const Text(
+                    "Welcome Back!",
+                    style: TextStyle(fontSize: 26, fontWeight: FontWeight.bold),
+                  ),
+                  const SizedBox(height: 20),
 
-                  SizedBox(height: 20),
-
-                  _statTile("🔥 Streak", "$streak days"),
-                  _statTile("🕒 Total Training Time", "${totalMinutes} min"),
+                  // Stats Cards
+                  _statTile(
+                    "🔥 Streak",
+                    streak > 0 ? "$streak days" : "Start today to begin your streak!",
+                    subtitle: streak == 0 ? "Complete a routine today!" : null,
+                  ),
+                  _statTile("🕒 Total Training Time", "$totalMinutes min"),
                   _statTile("📅 Sessions This Week", "$weeklySessions"),
                   _statTile("🧩 Total Sessions Logged", "$totalSessions"),
 
-                  SizedBox(height: 25),
-                  Text("🥋 Art Distribution", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  ...artDistribution.entries.map((e) => ListTile(
-                        title: Text(e.key),
-                        trailing: Text("${e.value} sessions"),
-                      )),
+                  const SizedBox(height: 25),
 
-                  SizedBox(height: 25),
-                  Text("📌 Recent Activity", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-                  ...recentActivities.map((e) => ListTile(title: Text(e))),
+                  // Art Distribution
+                  const Text("🥋 Art Distribution", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  const SizedBox(height: 8),
+                  if (artDistribution.isEmpty)
+                    _emptyStateCard(
+                      icon: Icons.auto_awesome,
+                      title: "No sessions yet",
+                      message: "Your martial art progress will appear here once you complete your first routine.",
+                    )
+                  else
+                    ...artDistribution.entries.map((e) => ListTile(
+                          title: Text(e.key.titleCase()),
+                          trailing: Text("${e.value} session${e.value == 1 ? '' : 's'}"),
+                        )),
+
+                  const SizedBox(height: 25),
+
+                  // Recent Activity
+                  const Text("📌 Recent Activity", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+                  const SizedBox(height: 8),
+                  if (recentActivities.isEmpty)
+                    _emptyStateCard(
+                      icon: Icons.fitness_center,
+                      title: "Ready to train?",
+                      message: "Complete a routine to see your recent activities here!",
+                    )
+                  else
+                    ...recentActivities.map((e) => ListTile(
+                          leading: const Icon(Icons.check_circle, color: Colors.green),
+                          title: Text(e),
+                        )),
                 ],
               ),
             ),
     );
   }
 
-  Widget _statTile(String label, String value) {
+  Widget _statTile(String label, String value, {String? subtitle}) {
     return Card(
+      elevation: 2,
       child: ListTile(
-        title: Text(label),
-        trailing: Text(value, style: TextStyle(fontWeight: FontWeight.bold)),
+        title: Text(label, style: const TextStyle(fontSize: 16)),
+        trailing: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            Text(value, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+            if (subtitle != null)
+              Text(subtitle, style: const TextStyle(fontSize: 12, color: Colors.grey)),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Widget _emptyStateCard({required IconData icon, required String title, required String message}) {
+    return Card(
+      color: Colors.grey[50],
+      child: Padding(
+        padding: const EdgeInsets.all(20),
+        child: Column(
+          children: [
+            Icon(icon, size: 48, color: Colors.grey[600]),
+            const SizedBox(height: 12),
+            Text(title, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+            const SizedBox(height: 8),
+            Text(
+              message,
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.grey[700]),
+            ),
+          ],
+        ),
       ),
     );
   }
 }
 
+// Helper extension for title case
+extension StringExtension on String {
+  String titleCase() {
+    if (isEmpty) return this;
+    return "${this[0].toUpperCase()}${substring(1).toLowerCase()}";
+  }
+}
